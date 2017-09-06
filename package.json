@@ -29,7 +29,7 @@
   },
   "scripts": {
     "debug": "node debug app.js",
-    "start": "babel-node app.js"
+    "start": "node app.js"
   },
   "main": "app.js",
   "repository": {

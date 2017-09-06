@@ -21,6 +21,9 @@ module.exports.http = {
   *                                                                           *
   ****************************************************************************/
 
+  //passportInit: require('passport').initialize(),
+  //passportSession: require('passport').session(),
+
   middleware: {
 
   /***************************************************************************
@@ -30,10 +33,12 @@ module.exports.http = {
   *                                                                          *
   ***************************************************************************/
 
-    // order: [
+    order: [
     //   'startRequestTimer',
     //   'cookieParser',
-    //   'session',
+    // 'session',
+    //'passportInit',
+    //'passportSession'
     //   'myRequestLogger',
     //   'bodyParser',
     //   'handleBodyParserError',
@@ -46,7 +51,7 @@ module.exports.http = {
     //   'favicon',
     //   '404',
     //   '500'
-    // ],
+    ],
 
   /****************************************************************************
   *                                                                           *
